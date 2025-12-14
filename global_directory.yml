@@ -1,0 +1,6 @@
+http:
+  repository: hersac/umbral-http
+  umbral: ">=0.1.0"
+  exports:
+    - fetch
+    - HttpClient
