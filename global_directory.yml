@@ -1,5 +1,5 @@
 http:
-  repository: hersac/umbral-http
+  repository: https://github.com/hersac/umbral-http
   umbral: ">=0.1.0"
   exports:
     - fetch
