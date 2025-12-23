@@ -64,7 +64,7 @@ Agrega tu entrada **en orden alfabético** siguiendo la estructura requerida:
 
 ```yaml
 mi-libreria:
-  repository: mi-usuario/mi-repo-umbral
+  repository: https://github.com/mi-usuario/mi-repo-umbral
   umbral: ">=0.1.0"
   exports:
     - miFuncion
