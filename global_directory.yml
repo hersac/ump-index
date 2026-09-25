@@ -1,6 +1,72 @@
 http:
   repository: https://github.com/hersac/umbral-http
-  umbral: ">=0.1.0"
+  umbral: ">=1.5.7"
   exports:
-    - fetch
-    - HttpClient
+    - Http
+    - Router
+    - Route
+    - Request
+    - Response
+    - Next
+    - HttpError
+    - QueryParams
+    - PathParams
+    - logger
+    - cors
+    - securityHeaders
+    - TokenStore
+    - RateStore
+    - issueToken
+    - verifyToken
+    - checkRate
+    - getCookie
+    - forward
+ormum:
+  repository: https://github.com/hersac/ormum
+  umbral: ">=1.5.7"
+  exports:
+    - typeOf
+    - isNumber
+    - hasDictKey
+    - hasPair
+    - getPair
+    - pairKeys
+    - setPair
+    - removePair
+    - normalize
+    - normalizeList
+    - pairsFromDict
+    - pairsFromPairs
+    - isPairs
+    - rulePair
+    - escapeIdent
+    - paramMark
+    - doubleQuote
+    - escapeJsonString
+    - toJson
+    - toJsonElements
+    - toJsonPairs
+    - compareValues
+    - matchFilter
+    - matchOperators
+    - compareWithOperator
+    - sortDocs
+    - replaceAt
+    - removeAt
+    - listContains
+    - asPairs
+    - maxInt
+    - OrmError
+    - ORMUM_VERSION
+    - validationError
+    - notFoundError
+    - conflictError
+    - Entity
+    - Connection
+    - connect
+    - disconnect
+    - SqlBuilder
+    - Document
+    - Model
+    - model
+
